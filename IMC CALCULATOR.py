@@ -57,13 +57,11 @@ resultat.place(x=100,y=220)
 RESULTAT=Entry(IMC_WIN,font=my_font,bg=bg)
 RESULTAT.place(x=450,y=220)
 
-<<<<<<< HEAD
+
 diagnostic=Label(IMC_WIN,text="Diagnostic : ",font=my_font, bg=bg)
 diagnostic.place(x=100,y=290)
 DIAGNOSTIC=Entry(IMC_WIN,font=my_font,bg=bg)
 DIAGNOSTIC.place(x=450,y=290)
-
-
 
 validation=Button(IMC_WIN,text="Valider",font=my_font,bg=bg,command=go)
 fermer=Button(IMC_WIN,text="Quitter",font=my_font,command=IMC_WIN.destroy)
@@ -73,20 +71,4 @@ validation.pack(side=BOTTOM,padx=0,pady=0)
 fermer.pack(side=BOTTOM,padx=0,pady=0)
 reinit_.pack(side=BOTTOM,padx=0,pady=0)
 
-
-
-
-
-
-
 IMC_WIN.mainloop()
-=======
-validation=Button(IMC_WIN,text="Valider",font=my_font,bg=bg,command=go)
-fermer=Button(IMC_WIN,text="Quitter",font=my_font,command=IMC_WIN.destroy)
-reinit_=Button(IMC_WIN,text="Reinitialiser la fenêtre",font=my_font,command=reset)
-validation.place(x=100,y=290)
-fermer.place(x=100,y=350)
-reinit_.place(x=100,y=410)
-
-IMC_WIN.mainloop()
->>>>>>> 71decf1625476ca3c906c8b373a4bb7b8b28c796
