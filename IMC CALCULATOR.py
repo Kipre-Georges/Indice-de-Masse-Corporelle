@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 
+=======
+#MY DISCORD :Georges#4931
+>>>>>>> 71decf1625476ca3c906c8b373a4bb7b8b28c796
 
 from fileinput import close
 from http.client import OK
@@ -9,7 +13,6 @@ import tkinter
 from webbrowser import get
 
 from colorama import reinit
-
 
 def go():
     FPOIDS=EPOIDS.get()
@@ -44,7 +47,6 @@ IMC_WIN.title("IMC CALCULATOR")
 my_font=("Arial",20)
 bg="white"
 
-
 POIDS=Label(IMC_WIN,text="Poids en (kg) : ",font=my_font,bg=bg)
 POIDS.place(x=100,y=80)
 EPOIDS=Entry(IMC_WIN,font=my_font,bg=bg)
@@ -55,12 +57,12 @@ TAILLE.place(x=100,y=150)
 ETAILLE=Entry(IMC_WIN,font=my_font, bg =bg)
 ETAILLE.place(x=450,y=150)
 
-
 resultat=Label(IMC_WIN,text="Resultat : ",font=my_font, bg=bg)
 resultat.place(x=100,y=220)
 RESULTAT=Entry(IMC_WIN,font=my_font,bg=bg)
 RESULTAT.place(x=450,y=220)
 
+<<<<<<< HEAD
 diagnostic=Label(IMC_WIN,text="Diagnostic : ",font=my_font, bg=bg)
 diagnostic.place(x=100,y=290)
 DIAGNOSTIC=Entry(IMC_WIN,font=my_font,bg=bg)
@@ -83,3 +85,13 @@ reinit_.pack(side=BOTTOM,padx=0,pady=0)
 
 
 IMC_WIN.mainloop()
+=======
+validation=Button(IMC_WIN,text="Valider",font=my_font,bg=bg,command=go)
+fermer=Button(IMC_WIN,text="Quitter",font=my_font,command=IMC_WIN.destroy)
+reinit_=Button(IMC_WIN,text="Reinitialiser la fenêtre",font=my_font,command=reset)
+validation.place(x=100,y=290)
+fermer.place(x=100,y=350)
+reinit_.place(x=100,y=410)
+
+IMC_WIN.mainloop()
+>>>>>>> 71decf1625476ca3c906c8b373a4bb7b8b28c796
