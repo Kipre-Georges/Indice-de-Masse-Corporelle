@@ -1,8 +1,3 @@
-<<<<<<< HEAD
-
-=======
-#MY DISCORD :Georges#4931
->>>>>>> 71decf1625476ca3c906c8b373a4bb7b8b28c796
 
 from fileinput import close
 from http.client import OK
